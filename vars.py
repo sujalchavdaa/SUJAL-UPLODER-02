@@ -6,7 +6,7 @@ from os import environ
 API_ID = int(environ.get("API_ID", ""))
 API_HASH = environ.get("API_HASH", "")
 BOT_TOKEN = environ.get("BOT_TOKEN", "")
-OWNER = int(environ.get("OWNER", "8118667253"))
+OWNER = int(environ.get("OWNER", "7114926879"))
 CREDIT = "✿𝐒𝐔𝐉𝐀𝐋✿"
 
 AUTH_USER = os.environ.get('AUTH_USERS', '7114926879').split(',')
@@ -21,4 +21,5 @@ COLLECTION_NAME = environ.get("COLLECTION_NAME", "Telegrambot")
   
 #WEBHOOK = True  # Don't change this
 #PORT = int(os.environ.get("PORT", 8080))  # Default to 8000 if not set
+
 
